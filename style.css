@@ -475,11 +475,43 @@ li.picto a:hover{
     justify-content:center;
   }
 }
+h5{
+  display:none;
+}
 @media (max-width: 1024px){
   tr{
     display:flex;
     flex-direction:column;
+    justify-content:center;
+    margin:none;
+  }
+  tr.c{
+    margin-left:25%;
+    
+  }
+  ul.colonne{
+    align-content:center;
+    display:flex;
+    align-items:center;
+    min-width:250px;
+    max-width:900px;
+    margin-bottom:5%;
+  }
+  h5{
+    display:contents;
+    font-family:"FiraSans-Regular";
+    font-size:150%;
+    padding-top:25px;
+  }
   
+  th{
+    display:none;
+  }
+  td.capa{
+    display:none;
+  }
+  td.vide{
+    display:none;
   }
   ul{
     display:flex;
