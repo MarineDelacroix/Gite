@@ -431,6 +431,7 @@ th{
 }
 .img-big{
   border-radius:20px 20px 20px 20px;
+  width:100%;
 }
 .motard{
   width:25px;
