@@ -2,12 +2,9 @@ body
 {
   background-image: url("image1/leaves-5620832.png");
   width:100%;
-  min-width:250px;
-  max-width:1250px;
-  background-size: cover;
-  
+  background-size: cover; 
   background-attachment:fixed;
-  
+  margin:auto;
   border-radius: 5px 5px 5px 5px;
 }
 @font-face {
@@ -21,54 +18,49 @@ body
 #entete{
   display:flex;
   flex-direction:row;
-  justify-content:space-between;
-
+  justify-content:space-around;
+  overflow:visible;
 }
 img.logo
 {
-  width:90%;
-  height: 75%;
+  object-fit:contain;
+
 }
 div#moto
 {
-  width:10%;
-  padding-left:2.5%;
-  align-items: flex-start;
+  width:auto;
   float: left;
-  margin-top:1%;
-  margin-bottom:1%;
+  height:100px;
+  margin-top:100px; 
 }
 div#conteneur
 {
   background-position: bottom;
-  border-radius: 10px 10px 10px 10px;
-  width:300px;
-  margin:1%;
-  
-}
-img.fougere{
-  width:100px;
-  margin-left:-15%;
+  overflow:visible;
 }
 div#montagne
 {
+  width:auto;
+  margin-top:100px;
   float:right;
-  margin-bottom:1%;
-  max-width:80%;
+  height:100px;
+  min-height:10px;
 }
 img.fougere1
 {
   height:.1%;
   width:30%;
 }
-
-img.branche
-{
-  height:.1%;
-  width:30%;
-  padding-right: 20%;
-  margin-right: 20%;
-  padding-top:2%;
+@media (max-width: 850px){
+  div#moto{
+    visibility:hidden;
+  }
+  div#montagne{
+    visibility:hidden;
+  }
+  div#conteneur{
+    min-width:100%;
+  }
 }
 ul
 {
@@ -85,6 +77,10 @@ ul
   text-align: center;
   border:1px;
   border-color:white;
+}
+.picto{
+  margin-left:2%;
+  margin-right:2%;
 }
 nav.Menu
 {
@@ -131,10 +127,6 @@ header
 {
   text-align:justify;
   white-space: normal;
-  background-color: rgba(255,255,255, .2);
-  background-repeat:no-repeat;
-  border-radius:5px 5px 5px 5px;
-  position:relative;
 }
 
 
@@ -160,7 +152,6 @@ ol
 div
 {
   display:flex;
-  align-items:center;
   justify-content:space-around;
 }
 footer
@@ -228,6 +219,8 @@ td
   border-radius:20px 20px 20px 20px;
   font-size:120%;
   empty-cells:hide;
+
+
 }
 table
 {
@@ -460,4 +453,9 @@ figure.images:hover{
   margin-top:-10px;
   padding-top:10px;
   text-align:center;
+}
+@media (max-width: 1300px){
+  .patte{
+    visibility:hidden;
+  }
 }
