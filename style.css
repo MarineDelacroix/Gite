@@ -333,7 +333,6 @@ img {
   background-color: rgba(97,120,125,0.3);
   border-radius:20px 20px 20px 20px;
   justify-content:center;
-
   padding-top:5%;
 }
 .slide-img{
@@ -344,8 +343,6 @@ img {
 }
 .slide{
   display:flex;
-  
-  
   z-index:2;
   overflow:hidden;
   flex-wrap:wrap;
@@ -356,7 +353,6 @@ img {
 }
 .leg{
   z-index:3;
-
 }
 #pres{
   display:flex;
@@ -449,7 +445,7 @@ figure.images:hover{
 }
 .fig{
   background-color:rgba(97,120,125,0.7);
-  height:20%;
+  height:25%;
   margin:0;
   margin-top:-10px;
   padding-top:10px;
