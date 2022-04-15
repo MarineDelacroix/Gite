@@ -1,11 +1,13 @@
 body
 {
   background-image: url("image1/leaves-5620832.png");
-  width:fit-content;
-  background-clip:content-box;
+  width:100%;
+  min-width:250px;
+  max-width:1250px;
+  background-size: cover;
+  
   background-attachment:fixed;
-  background-size:contain;
-  overflow:scroll;
+  
   border-radius: 5px 5px 5px 5px;
 }
 @font-face {
@@ -72,6 +74,7 @@ ul
 {
   display:flex;
   flex-direction:row;
+  flex-wrap:wrap;
   justify-content:space-around;
   list-style-type: none;
   color:black;
@@ -85,10 +88,8 @@ ul
 }
 nav.Menu
 {
-  display:flex;
-  flex-wrap:wrap;
   width:100%;
-  
+  height:5%;
   background-color: rgba(255,255,255, .6);
   border-radius:20px 20px 20px 20px;
   font-family:'Updock-Regular';
@@ -98,20 +99,26 @@ nav.Menu
   padding-top:.1%;
   padding-bottom:.1%;
   margin-bottom: .2%;
+  position:sticky;
   box-shadow: 0px 10px 20px 1px rgba(92,95,93,0.8);
 }
 aside.afaire
 {
+    overflow:auto;
     position:relative;
     width:100%;
     font-size:200%;
     font-family:'Updock-Regular';
     font-weight: bold;
-    display:flex;
-    justify-content:space-evenly;
-    flex-wrap:wrap;
     background-color: rgba(97,120,125,0.6);
+    background-position: top;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
     border-radius:20px 20px 20px 20px;
+    line-height: normal;
+    display:inline-block;
+    vertical-align: baseline;
+    height:4%;
     padding-top:.1%;
     padding-bottom:.1%;
     box-shadow: 0px 10px 20px 1px rgb(92,95,93);
@@ -225,7 +232,7 @@ td
 table
 {
   border-collapse:collapse;
-  width:100%;
+  width:80%;
   
   border-radius:20px 20px 20px 20px;
   empty-cells:hide;
@@ -233,7 +240,7 @@ table
 ul.colonne
 {
   display:flex;
-  flex-wrap: nowrap;
+  flex-wrap: wrap;
   align-items:flex-start;
   align-content:flex-start;
   white-space:nowrap;
