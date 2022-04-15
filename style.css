@@ -52,6 +52,10 @@ img.fougere1
   width:30%;
 }
 @media (max-width: 850px){
+  .actList{
+    min-width:50%;
+  }
+  
   div#moto{
     visibility:hidden;
   }
@@ -243,6 +247,24 @@ iframe
   width:100%;
   margin-top:-40px;
 }
+#infosTourisme{
+  display:flex;
+  flex-direction:row;
+  flex-wrap:wrap;
+  justify-content:center;
+}
+.actList{
+  display:flex;
+  flex-direction:column;
+  width:30%;
+  margin:1%;
+}
+.actList p{
+  color:black;
+  font-family:"Updock-Regular";
+  font-size:30px;
+  text-decoration:underline 1px black;
+}
 td
 {
   text-align: center;
@@ -328,7 +350,7 @@ li.b
   font-size:25px;
   font-family:'Updock-Regular';
   font-weight:bold;
-  padding:2%;
+  padding:1%;
   background-color: rgba(39, 79, 73,0.7);
   box-shadow: 0px 10px 20px 1px rgba(92,95,93,0.8);
   border-radius:40px 40px 40px 40px;
@@ -500,8 +522,8 @@ th{
 }
 #infos{
   
-  padding-bottom:5%;
-  margin-bottom:100px;
+  padding-bottom:1%;
+  margin-bottom:30px;
 }
 .img-big{
   border-radius:20px 20px 20px 20px;
