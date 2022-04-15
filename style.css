@@ -102,6 +102,15 @@ nav.Menu
   position:sticky;
   box-shadow: 0px 10px 20px 1px rgba(92,95,93,0.8);
 }
+@media (max-width: 350px){
+  li.picto a {
+    font-size:80%;
+    border-radius:20px 20px 20px 20px;
+    padding:1%;
+    white-space:nowrap;
+    box-shadow:0px 10px 20px 1px rgba(106,121,110,0.5);
+  }
+}
 aside.afaire
 {
     overflow:auto;
@@ -228,9 +237,10 @@ td
 }
 table
 {
+  position:relative;
   border-collapse:collapse;
-  width:80%;
-  
+  width:auto;
+  margin:auto;
   border-radius:20px 20px 20px 20px;
   empty-cells:hide;
 }
@@ -241,7 +251,6 @@ ul.colonne
   align-items:flex-start;
   align-content:flex-start;
   white-space:nowrap;
-  margin:0;
   background-color:whitesmoke;
   padding:0;
   padding-bottom:2%;
@@ -289,6 +298,7 @@ ul.Serv
   align-items:center;
   flex-wrap: wrap;
   width:100%;
+  margin-bottom:5%;
 
 }
 li.b
@@ -479,20 +489,25 @@ h5{
   display:none;
 }
 @media (max-width: 1024px){
+  table{
+    width:100%;
+  }
   tr{
     display:flex;
     flex-direction:column;
     justify-content:center;
-    margin:none;
   }
-  tr.c{
-    margin-left:25%;
-    
+  li.b{
+    white-space:pre-line;
+    padding:2%;
+    text-align:center;
   }
   ul.colonne{
     align-content:center;
     display:flex;
+    margin:auto;
     align-items:center;
+    white-space:pre-wrap;
     min-width:250px;
     max-width:900px;
     margin-bottom:5%;
