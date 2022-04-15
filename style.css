@@ -476,6 +476,14 @@ li.picto a:hover{
   }
 }
 @media (max-width: 1024px){
+  tr{
+    display:flex;
+    flex-direction:column;
+  
+  }
+  ul{
+    display:flex;
+  }
   aside.afaire{
     display:none;
   }
@@ -489,12 +497,8 @@ li.picto a:hover{
   }
   .motard{
    display:none;
+  } 
   }
-    
-
-   
-  }
-  
   nav.Menu{
     width:100%;
     height:150px;
