@@ -1,0 +1,9 @@
+#ba9ba4 -> rgba(186,155,164     rose 
+
+#5c5f5d -> rgba(92,95,93   background body
+
+#839388 -> rgba(131,147,136   cellules
+
+#61787d -> rgba(97,120,125  diapo btn th 
+
+#6a796e -> rgba(106,121,110 
