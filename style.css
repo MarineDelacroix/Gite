@@ -61,6 +61,24 @@ img.fougere1
   div#conteneur{
     min-width:100%;
   }
+  h3{
+    display:none;
+  }
+  h4{
+    display:none;
+  }
+  #resa{ 
+    margin:auto;
+  }
+  #resa p{
+    margin-top:10px;
+    font-size:200%;
+    padding-left:15%;
+    padding-right:15%;
+  }
+  .btn{
+    margin-top:-52px;
+  }
 }
 ul
 {
@@ -113,7 +131,6 @@ nav.Menu
 }
 aside.afaire
 {
-    overflow:auto;
     position:relative;
     width:100%;
     font-size:200%;
@@ -408,6 +425,7 @@ p{
   font-family:"FiraSans-Regular";
   font-weight:400;
   font-size:150%;
+  text-align:center;
   color:aliceblue;
   font-style: normal;
 }
