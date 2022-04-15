@@ -55,6 +55,15 @@ img.fougere1
   .actList{
     min-width:50%;
   }
+  .ancreDiapo{
+    margin:0;
+  }
+  ul.ancreList{
+    font-size:13px;
+  }
+  .ancreList li{
+    max-width:80px;
+  }
   
   div#moto{
     visibility:hidden;
