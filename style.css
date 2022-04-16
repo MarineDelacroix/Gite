@@ -129,7 +129,7 @@ ul
 nav.Menu
 {
   width:100%; 
-  background-color: rgba(98, 80, 75, 0.6);
+  background-color: rgba(98, 80, 75, 0.8);
   font-family:'Updock-Regular';
   font-weight:bold;
   color:rgba(92,95,93,0.5);
@@ -281,6 +281,10 @@ iframe
   display:flex;
   flex-direction:column;
   width:30%;
+  background-color:rgba(255,255,255, .9);
+  box-shadow: 0px 10px 20px 1px rgba(92,95,93,0.8);
+  padding-bottom:30px;
+  border-radius:20px 20px 20px 20px;
   margin:1%;
 }
 .actList p{
@@ -337,7 +341,7 @@ h6.classe
 }
 td.capa
 {
-background-color:rgba(106,121,110,0.9);
+background-color:rgba(106,121,110,0.5);;
 border-radius:20px 20px 20px 20px;
 }
 td.vide{
@@ -350,6 +354,7 @@ li.a
   font-family:"FiraSans-Regular";
   padding-left:1%;
   font-size:15px;
+  white-space:pre-wrap;
   font-style: normal;
 }
 th.Services
@@ -373,7 +378,7 @@ li.b
   font-weight:bold;
   font-family:'FiraSans-Regular';
   padding:1%;
-  background-color: rgba(39, 79, 73,0.7);
+  background-color:rgba(106,121,110,0.5);
   box-shadow: 0px 10px 20px 1px rgba(69, 71, 70, 0.8);
   border-radius:40px 40px 40px 40px;
   margin:1%;
@@ -411,11 +416,10 @@ img {
   height:750px;
   width:90%;
   overflow:auto;
-  margin-bottom:500px;
   margin:auto;
   flex-wrap:wrap;
-  background-color: rgba(97,120,125,0.5);
-  border:5px solid rgba(39, 79, 73,0.4);
+  background-color: rgba(106,121,110,0.4);
+  border:10px double rgba(106,121,110,0.5);
   box-shadow: 0px 10px 20px 1px rgba(92,95,93,0.9);
   border-radius: 20px 20px 20px 20px;
   justify-content:center;
@@ -430,7 +434,7 @@ h6.fixed{
 }
 .ancreDiapo{
   display:flex;
-  margin:0% 10% 0% 10%;
+  margin:0% 10% 2% 10%;
   justify-content:center;
   align-content:center;
 }
@@ -444,7 +448,7 @@ h6.fixed{
   padding:5px;
   width:150px;
   text-align:center;
-  background-color:rgba(39, 79, 73,0.5);
+  background-color:rgba(106,121,110,0.5);;
   margin-top:2%;
   border-radius:30px 30px 30px 30px;
   box-shadow: 0px 10px 15px 1px rgba(92,95,93,0.9);
@@ -561,13 +565,13 @@ figure.images{
   flex:auto;
   overflow:hidden;
   border-radius:20px 20px 20px 20px;
-  box-shadow: 0px 10px 20px 1px rgba(92,95,93,1.2);
+  box-shadow: 1px 15px 20px 10px rgba(92,95,93,1.2);
 }
 figure.images:hover{
-  box-shadow: 0px 15px 25px 2px rgba(92,95,93,1.8);
+  box-shadow: 1px 15px 20px 10px rgba(92,95,93,1.8);
 }
 .fig{
-  background-color:rgba(97,120,125,0.7);
+  background-color:rgba(106,121,110,0.9);
   height:25%;
   margin:0;
   margin-top:-10px;
@@ -576,13 +580,18 @@ figure.images:hover{
 }
 li.picto a{
   padding-bottom:1%;
+  color:rgba(43,41,41,1);
+  width:100px;
 }
 
 li.picto a:hover{
   padding:3%;
   height:auto;
+  background-color:rgba(131, 86, 9, 0.2);
   border-radius:20px 20px 20px 20px;
-  box-shadow: 0px 10px 20px 1px rgba(92,95,93,0.8);
+  box-shadow: 0px 10px 20px 1px rgba(245, 248, 246, 0.3);
+  text-decoration:underline 2px solid rgba(43,41,41,1);
+  padding:1%;
   white-space:nowrap;
 }
 @media (max-width: 1300px){
