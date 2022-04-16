@@ -56,7 +56,9 @@ img.fougere1
   width:30%;
 }
 @media (max-width: 850px){
-  
+  #diapo{
+    max-width:80%;
+  }
   nav.Menu{
     min-height:100px;
   }
@@ -611,7 +613,7 @@ h5{
 }
 @media (max-width: 1024px){
   li.picto a {
-    font-size:75%;
+    font-size:25px;
     white-space:nowrap;
   }
   table{
@@ -635,7 +637,8 @@ h5{
     align-items:center;
     white-space:pre-wrap;
     min-width:250px;
-    max-width:900px;
+    padding-top:25px;
+    max-width:80%;
     margin-bottom:5%;
   }
   h5{
