@@ -613,7 +613,8 @@ h5{
 }
 @media (max-width: 1024px){
   li.picto a {
-    font-size:25px;
+    font-size:30px;
+    text-transform:capitalize;
     white-space:nowrap;
   }
   table{
