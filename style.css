@@ -606,6 +606,11 @@ li.picto a:hover{
   }
   ul.list{
     justify-content:center;
+    background-color: rgba(255,255,255,0.4);
+  }
+  li.picto a{
+    color:rgba(98, 80, 75, 0.8);
+    text-transform:capitalize;
   }
 }
 h5{
@@ -613,7 +618,7 @@ h5{
 }
 @media (max-width: 1024px){
   li.picto a {
-    font-size:30px;
+    font-size:25px;
     text-transform:capitalize;
     white-space:nowrap;
   }
