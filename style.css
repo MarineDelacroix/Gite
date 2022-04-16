@@ -24,7 +24,7 @@ body
 img.logo
 {
   object-fit:cover;
-  box-shadow: 0px 0px 10px 10px rgba(92,95,93,0.8);
+  box-shadow: 0px 0px 10px 10px rgba(98,80,75,0.6);;
   border-radius:20px 20px 20px 20px;
 
 }
