@@ -171,11 +171,11 @@ strong{
     margin:0;
   }
   ul.ancreList{
-    font-size:13px;
+    font-size:17px;
+    text-transform:uppercase;
+    padding:1%;
   }
-  .ancreList li{
-    max-width:100px;
-  }
+  
   
   div#moto{
     visibility:hidden;
@@ -242,6 +242,9 @@ nav.Menu
   margin-bottom:25px;
   position:sticky;
   box-shadow: inset 0px 0px 50px 17px rgba(143,100, 83,0.3);
+}
+.airbnb_svg{
+  max-width:12px;
 }
 @media (max-width: 350px){
   section#img-big img{
@@ -563,6 +566,7 @@ h6.fixed{
   border:1px solid rgba(106,121,110,0.4);
   padding:5px;
   width:150px;
+  margin:5px;
   text-align:center;
   background-color:rgba(106,121,110,0.7);;
   border-radius:30px 30px 30px 30px;
