@@ -147,6 +147,10 @@ strong{
   padding-top:10px;
 }
 @media (max-width: 850px){
+  section#img-big img{
+    min-width:80%;
+    margin-top:1%;
+  }
   .fig p{
     font-size:125%;
   }
@@ -235,10 +239,15 @@ nav.Menu
   color:rgba(92,95,93,0.5);
   align-items: center;
   font-size:250%;
+  margin-bottom:25px;
   position:sticky;
   box-shadow: inset 0px 0px 50px 17px rgba(143,100, 83,0.3);
 }
 @media (max-width: 350px){
+  section#img-big img{
+    min-width:100%;
+    margin-top:1%;
+  }
   ul{
     display:flex;
     flex-direction:column;
@@ -270,7 +279,7 @@ aside.afaire
 {
     position:relative;
     width:100%;
-    font-size:200%;
+    font-size:20px;
     font-family:'Updock-Regular';
     font-weight: bold;
     background-color: rgba(92,95,93,0.2);
@@ -371,7 +380,6 @@ iframe
 {
   border-radius:7px 7px 7px 7px;
   width:100%;
-  margin-top:-40px;
 }
 #infosTourisme{
   display:flex;
@@ -667,6 +675,21 @@ th{
 .img-big{
   
   width:100%;
+}
+section#img-big{
+  display:flex;
+  justify-content:center;
+  background-color:rgba(255,255,255,0.5);
+  align-items:center;
+  flex-wrap:wrap;
+}
+section#img-big img{
+  box-shadow: 0px 0px 100px 50px rgb(98 80 75 / 60%);
+  border-radius:20px 20px 20px 20px;
+  object-fit:cover;
+  max-width:48%;
+  margin-left:1%;
+  margin-right:1%;
 }
 
 .motard{
