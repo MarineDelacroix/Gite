@@ -811,8 +811,15 @@ h5{
   }
 }
 #externalLinks ul{
-  display:flex;
-  flex-direction:column;
+  display: flex;
+  font-size: 12px;
+  font-family: "FiraSans-Regular";
+  justify-content: space-between;
+  flex-direction: column;
+  text-align: center;
+  align-items: stretch;
+  align-content: space-around;
+  flex-wrap: wrap;
 }
 #externalLinks{
   display:flex;
