@@ -602,7 +602,7 @@ h6.fixed{
   align-content:space-between;
   justify-content:space-around;
   border-radius:20px 20px 20px 20px;
-  height:500px;
+  height:fit-content;
 }
 .btn{
   background-color:rgba(97,120,125,0.5);
@@ -613,8 +613,9 @@ h6.fixed{
   font-weight:bold;
   align-content:center;
   justify-content:center;
-  width:200px;
-  height:100px;
+  width:fit-content;
+  height:fit-content;
+  margin:20px;
   border-radius:50px 50px 50px 50px;
   text-align:center;
   border-style: groove;
