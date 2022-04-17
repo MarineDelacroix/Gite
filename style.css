@@ -35,7 +35,7 @@
     transform: rotate(0turn);
   }
   to {
-    transform: rotate(8turn);
+    transform: rotate(3.3turn);
   }
 }
 @keyframes spin{
@@ -46,31 +46,20 @@
     transform: rotate(1turn);
   }
 }
-@keyframes appear{
-  0%{
-    opacity:0;
-  }
-  60%{
-    opacity:0.5;
-  }
-  100%{
-    opacity:1;
-  }
-}
 .load1{
   width:100%;
   position:absolute;
   height:100%;
   z-index:-1;
   opacity:0;
-  background-color:#F6F6F6;
+  background-color:rgba(98, 80, 75, 0.8);
   display:flex;
   justify-content:center;
   align-items:center;
 }
 .load1{
   animation-name: loading;
-  animation-duration: 3500ms;  
+  animation-duration: 2500ms;  
 }
 .load1 > .spinner{
   box-shadow:0px 0px 30px 20px rgba(98, 80, 75, 0.8), 0px 0px 30px 30px rgba(106,121,110,0.5), 0px 0px 30px 10px rgba(97,120,125,0.5), inset 0px 0px 10px 10px rgba(98 80 75 / 60%);
@@ -107,7 +96,7 @@ body
 img.logo
 {
   object-fit:cover;
-  box-shadow: 0px 0px 10px 10px rgba(98,80,75,0.6);;
+  box-shadow: 0px 0px 100px 50px rgb(98 80 75 / 60%);
   border-radius:20px 20px 20px 20px;
 
 }
@@ -612,11 +601,13 @@ h6.fixed{
   font-size:60px;
   font-weight:bold;
   align-content:center;
+  padding:1%;
   justify-content:center;
   width:fit-content;
   height:fit-content;
   margin:20px;
   border-radius:50px 50px 50px 50px;
+  box-shadow:0px 10px 20px 3px rgba(97,120,125,0.5);
   text-align:center;
   border-style: groove;
   border-color: white;
@@ -624,7 +615,8 @@ h6.fixed{
 }
 .btn:hover{
   border-style:dotted;
-  background-color:rgb(85, 105, 104)
+  background-color:rgb(85, 105, 104);
+  box-shadow:0px 10px 20px 10px rgba(97,120,125,0.8);
 }
 p{
   font-family:"FiraSans-Regular";
