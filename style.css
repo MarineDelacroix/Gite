@@ -225,7 +225,7 @@ ul
 nav.Menu
 {
   width:100%; 
-  background-color: rgba(98, 80, 75, 0.6);
+  background-color: rgba(245, 248, 246, 0.7);
   font-family:'Updock-Regular';
   font-weight:bold;
   color:rgba(92,95,93,0.5);
@@ -677,19 +677,27 @@ figure.images:hover{
   text-align:center;
 }
 li.picto a{
-  padding-bottom:1%;
-  color:rgba(43,41,41,1);
-  width:100px;
+padding-bottom: 1%;
+
+
+color: rgba(43,41,41,0.7);
+font-family: "Updock-Regular";
+font-size: 30px;
+font-weight: bolder;
+
+
+width: 50%;
+border-radius: 20px 20px 20px 20px;
 }
 aside.afaire1{
   display:none;
 }
 li.picto a:hover{
   border-radius:30px 30px 30px 30px;
-  box-shadow: 0px 10px 20px 1px rgba(245, 248, 246, 0.5);
+  box-shadow: 0px 10px 40px 1px rgba(245, 248, 246, 0.5);
   overflow:hidden;
-  background-color:rgba(154, 126, 119, 0.6);
-  color:rgba(43,41,41,0.7);
+  background-color:rgba(245, 248, 246, 0.7);
+  color:black;
   padding-left:10px;
   padding-bottom:0;
   padding-right:10px;
