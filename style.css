@@ -1,3 +1,86 @@
+@keyframes loading{
+  0%{
+    transform:scale(1);
+    opacity:1;
+    z-index:2;
+  }
+  20%{
+    transform:scale(1);
+    opacity:1;
+  }
+  50%{
+    transform:scale(1);
+    opacity:0.75;
+  }
+  70%{
+    transform:scale(1);
+    opacity:0.5;
+  }
+  80%{
+    transform:scale(1);
+    opacity:0.2;
+  }
+  90%{
+    transform:scale(1);
+    opacity:0.001;
+    z-index:2;
+  }
+  100%{
+    transform:scale(0);
+    opacity:0;
+  }
+}
+@keyframes infinite-spinning {
+  from {
+    transform: rotate(0turn);
+  }
+  to {
+    transform: rotate(8turn);
+  }
+}
+@keyframes spin{
+  from {
+    transform: rotate(0turn);
+  }
+  to {
+    transform: rotate(1turn);
+  }
+}
+@keyframes appear{
+  0%{
+    opacity:0;
+  }
+  60%{
+    opacity:0.5;
+  }
+  100%{
+    opacity:1;
+  }
+}
+.load1{
+  width:100%;
+  position:absolute;
+  height:100%;
+  z-index:-1;
+  opacity:0;
+  background-color:#F6F6F6;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+}
+.load1{
+  animation-name: loading;
+  animation-duration: 3500ms;  
+}
+.load1 > .spinner{
+  box-shadow:0px 0px 30px 20px rgba(98, 80, 75, 0.8), 0px 0px 30px 30px rgba(106,121,110,0.5), 0px 0px 30px 10px rgba(97,120,125,0.5);
+  border-radius:100%;
+  object-fit:cover;
+  padding:20px 22px 20px 22px;
+  height:100px;
+  animation-name: infinite-spinning;
+  animation-duration: 3500ms;
+}
 body
 {
   background-image: url("image1/leaves-5620832.png");
