@@ -96,7 +96,7 @@ body
 img.logo
 {
   object-fit:cover;
-  box-shadow: 0px 0px 100px 50px rgb(98 80 75 / 60%);
+  box-shadow: 0px 0px 100px 50px rgb(98 80 75 / 60%), inset 0px 0px 100px 50px rgb(98 80 75 / 90%);
   border-radius:20px 20px 20px 20px;
 
 }
