@@ -799,5 +799,8 @@ h5{
   display:flex;
   padding-bottom:25px;
 }
-
+.mini{
+  color:black;
+  font-size:120%;
+}
 
