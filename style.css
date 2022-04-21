@@ -235,6 +235,7 @@ nav.Menu
   width:100%; 
   background-color: rgba(245, 248, 246, 0.7);
   font-family:'FiraSans-Regular';
+  display:flex;
   font-weight:bold;
   color:rgba(92,95,93,0.5);
   align-items: center;
