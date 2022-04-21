@@ -384,6 +384,18 @@ iframe
   border-radius:7px 7px 7px 7px;
   width:100%;
 }
+iframe#video{
+  max-width:80%;
+  min-height:400px;
+  max-height:800px;
+  height:auto;
+  margin-bottom:20px;
+}
+#youtube-video{
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+}
 #infosTourisme{
   display:flex;
   flex-direction:row;
